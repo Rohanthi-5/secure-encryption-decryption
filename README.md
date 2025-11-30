@@ -18,11 +18,11 @@ A Python-based text encryption and decryption system built using mathematical tr
 
 ## Project Structure
 
+```
 Encrydecry/
-│── ende.py # Main script for encryption, decryption, GUI, and graph plotting
-│── README.md # Project documentation
-
----
+│── ende.py          # Main script for encryption, decryption, GUI, and graph plotting
+│── README.md        # Project documentation
+```
 
 ## Algorithm Overview
 
@@ -44,12 +44,9 @@ Clone the repository:
 git clone https://github.com/your-username/encrydecry.git
 
 cd encrydecry
-
 Run the application:
 
-python ende.py
-
----
+## python ende.py
 
 ## Usage
 
