@@ -1,63 +1,80 @@
-🔐 Secure Text Encryption and Decryption Using Linear Transformations and Random Factors
+Secure Text Encryption and Decryption Using Linear Transformations and Random Factors
 
-A Python-based project developed during my internship at Aviratha Digital Labs.
-It provides a lightweight, fast, and secure method to encrypt and decrypt text using linear transformations, ASCII manipulation, and random factors.
+A Python-based text encryption and decryption system built using mathematical transformations, ASCII manipulation, random factors, and performance analysis techniques. This project was developed as part of an internship at Aviratha Digital Labs and demonstrates how linear algebra concepts can be applied to secure communication.
 
-✨ Features
+Features
 
-Custom encryption algorithm
+Custom Encryption Algorithm – Encrypts text using linear transformations derived from a user-provided key.
 
-Accurate decryption with key validation
+Accurate Decryption – Recovers the original message by reversing the mathematical operations.
 
-Random factors for improved security
+Random Factor Integration – Adds randomness to encrypted output for improved security.
 
-Fast and efficient for real-time use
+Lightweight Implementation – Uses only Python standard libraries.
 
-Simple and lightweight (only Python required)
+Performance Analysis – Graphs encryption and decryption time using Matplotlib.
 
-Graph performance analysis using Matplotlib
+GUI Application – Built using Tkinter for easy user interaction.
 
-GUI built using Tkinter
+Suitable for Academic Use – Ideal for demonstrating encryption concepts and algorithm design.
 
-📁 Project Structure
+Project Structure
 Encrydecry/
-├── ende.py          # Main encryption & decryption script
-├── README.md        # Project documentation
+│── ende.py # Main script for encryption, decryption, GUI, and graph plotting
+│── README.md # Project documentation
 
-▶️ How to Run
+Algorithm Overview
 
-Install Python (3.8+ recommended)
+The encryption algorithm is based on mathematical transformations:
 
-Open Terminal inside the project folder
+Converts characters into their ASCII values.
 
-Run:
+Generates a multiplier using the key provided by the user.
+
+Applies a linear transformation to compute encrypted numeric values.
+
+Adds random factors so identical characters produce different encrypted outputs.
+
+Decryption reverses all mathematical operations to retrieve the original ASCII values.
+
+Ensures that incorrect keys fail validation, preventing unauthorized access.
+
+This approach results in a secure, lightweight, and efficient text encryption system.
+
+Installation
+
+Clone the repository:
+
+git clone https://github.com/your-username/encrydecry.git
+cd encrydecry
+
+Run the application:
 
 python ende.py
 
+Usage
 
-Use the GUI to enter text, key, and perform encryption/decryption
+Enter the text you want to encrypt or decrypt.
 
-🧠 How the Algorithm Works
+Provide a numeric key.
 
-Converts each character to ASCII
+Click Encrypt or Decrypt.
 
-Applies linear transformation using a multiplier derived from the key
+View the resulting output in the GUI.
 
-Adds random factors so every output is unique
+Performance graphs will show encryption and decryption times.
 
-Decryption reverses the math to restore the original text
+Performance Analysis
 
-Key validation ensures only the correct key works
+The application includes built-in performance measurement tools:
 
-📊 Performance Analysis
+Records encryption and decryption times across multiple runs.
 
-Encryption and decryption time graphs plotted using Matplotlib
+Visualizes results using Matplotlib line graphs.
 
-Real-time performance tracking
+Helps analyze the efficiency and optimization of the algorithm.
 
-Helps measure speed and efficiency of the algorithm
-
-🧩 Skills & Technologies Used
+Technologies Used
 
 Python
 
@@ -65,18 +82,19 @@ Tkinter
 
 Matplotlib
 
-Linear Algebra (Transformations)
+Linear Algebra
 
-Cryptography basics
+Random Number Generation
 
-Debugging and optimization
+Basic Cryptography Concepts
 
-👩‍💻 Author
+Author
 
 Rohanthi Nayani V
 3rd Year BCA
-Intern at Aviratha Digital Labs, Bengaluru
+Aviratha Digital Labs – Internship Project
+Nagarjuna College of Management Studies
 
-📜 License
+License
 
-Open-source — free to use for learning and academic purposes.
+This project is open-source and available for academic and learning purposes.
